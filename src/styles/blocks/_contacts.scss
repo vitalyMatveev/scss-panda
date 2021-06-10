@@ -1,0 +1,41 @@
+.contact_about h2 {
+    font-family: openSans;
+    height:55px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.contact_from {
+    display:flex;
+    display:block;
+}
+
+.contact_name {
+    width:339px;
+    height:70px;
+    color:rgba(229,229,229,1);
+    background: #e5e5e5;
+    border-radius:5px;
+}
+
+.contact_email {
+    width:339px;
+    height:70px;
+    color:rgba(229,229,229,1);
+    background: #e5e5e5;
+    border-radius:5px;
+}
+
+.contact_description {
+    width:672px;
+    height:250px;
+    border-radius: 5px;
+    color:rgba(229,229,229,1);
+    background: #e5e5e5;
+}

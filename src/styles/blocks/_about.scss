@@ -1,0 +1,37 @@
+/* Стили блока about */
+.about {
+    padding-top: 130px;
+    padding-bottom: 110px;
+    background: #F6F2F2;
+}
+
+.about_title {
+    font-family: openSans;
+    font-style: normal;              /* обычное начертание текста*/
+    font-weight: 800;                /* толщина линии шрифта */
+    font-size: 60px;
+    line-height: 72px;
+    /*display: flex;*/
+    text-transform: uppercase;       /*все символы верхний регистр*/ 
+    // color: #000000;                /* цвет текста черный*/
+    color: #0f0;
+}
+
+.about_info {
+    width: 50%;
+    padding-right: 16px;
+}
+
+.about_visual {
+    position: relative;
+    width: 50%;
+    padding-left: 70px;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.25); /*тени: смещение-гориз,верт + размытость и цвет + размытость  */
+}
+
+.about_visual video {
+    display: block;
+    width: 100%;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.8);
+}
+

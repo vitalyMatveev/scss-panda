@@ -1,0 +1,72 @@
+/*шрифты*/
+@font-face {
+    font-family: openSans;
+      src: url("/fonts/open-sans/open-sans-v20-latin-regular.woff2") format("woff2");
+}
+
+body {
+    /*убираем полоску сверху*/
+    margin: 0;
+}
+.container {
+    max-width: 1240px;
+    margin: 0 auto;
+    border: 1px solid #000;
+}
+
+/*чтобы пропала полоска под изображением*/
+img {
+    display: block;
+}
+
+h1 {
+    margin-top: 0%;
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-weight: 800;
+    line-height: 72px;
+}
+
+h2 {
+    font-size: 42px;
+    font-weight: 700px;
+    line-height: 55px;
+    text-shadow: 1px 1px 2px red;
+}
+p {
+    font-size: 16px;
+    line-height: 28px;
+}
+
+a {
+  color: #000000;
+}
+
+.btn {
+    font-size: 18px;
+    font-weight: 700; /*толщина линии шрифта*/
+    line-height: 34px;
+    text-decoration: none; /*подчеркивание мигание перечеркивание и т.д.*/
+}
+
+.video_block {
+    position: relative;
+}
+
+.play-btn {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0%;
+    right: 0;
+    margin: auto;
+    width: 75px;
+    height: 75px;
+    font-size: 0;
+    /* Сделает фон прозрачным */
+    background-color: transparent;
+    /* Сделает фон прозрачным - БЕЗ БАГА В САФАРИ */
+    background-color: rgba(0, 0, 0, 0);
+    /* А далее добавить на фон изображение иконки цертрировать его 
+    и убрать повторение */
+}

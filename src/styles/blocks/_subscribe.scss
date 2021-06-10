@@ -1,0 +1,46 @@
+/* Стили блока Subscribe */
+.subscribe {
+    background-size: cover;  /*сохранение пропорции в наибольшем размере*/
+    background-image: url('/images/piter.jpg');
+
+    background-repeat: no-repeat; 
+    /* background-position: center; */
+                /* color: #fff; */
+        /* text-align: center; */  
+        /* задний фон рисунок повторяется?????? */
+    height: 600px;
+    background:linear-gradient(0deg, rgba(45,45,45,0.8),
+        rgba(45,45,45,0.8)),
+        url(/images/piter.jpg);
+}
+
+.subscribe_info {
+    font-family: openSans;
+    height:55px;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.subscribe_text {
+    height: 56px;
+            /*font-family: openSans;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 16px;
+            line-height: 28px;*/
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.8);
+}
+/* ???????????????????????????????????????????????
+.subscribe-fade {
+    padding: 100px 0;
+    background-color:rgba(45, 45, 45, 0.25);
+}*/

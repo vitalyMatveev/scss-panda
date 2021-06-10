@@ -1,0 +1,108 @@
+/* Стили блока Products */
+
+.products_info {
+    /* тест будет унаследован потомками ???? */
+    text-align: center;
+}
+
+.products_about_title {
+    /* tac будет унаследован потомками  ???????????*/
+    height:55px;
+    font-family: openSans;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.products_about_text {
+    font-family: openSans;
+    height: 84px;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
+
+.products_filter_list {
+    font-family: openSans;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    text-transform: uppercase;
+    color: rgba(0, 0, 0, 0.8);
+}
+
+.products_list {
+    display:flex;
+    flex-wrap: wrap;
+
+    /*отрицательны марджины равны по модулю
+    паддингам у флекс потомков*/
+    margin-left: -16px;
+    margin-right: -16px;
+}
+
+.products_link {
+    position: relative;
+    display: block;
+    color: #fff;
+}
+
+.products-desc {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    margin: 0;
+    padding: 10px;
+    background-color: rgba(0,0,0,.5);
+}
+
+.products_item {
+    width:25%;
+    padding: 16px;
+}
+
+.products_pic {
+    width: 100%;
+    height: 286px;
+    object-fit: cover;  /* смещение содержимого при изменении размера блока*/
+}
+
+.products_about_title{
+    font-family: openSans;
+    font-style: normal; 
+    font-weight: bold;
+    font-size: 42px;
+    line-height: 55px;
+    display: flex;
+    align-items: center;        /* выравнивает в контейнере flex эл-ты в перпендикулярном направлении*/
+    text-align: center;         /* выравнивание внутри блока */
+    text-transform: uppercase;  /*все символы верхний регистр*/
+    color: #000000;
+}
+
+.products_about_text {
+    font-family: openSans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #000000;
+}
